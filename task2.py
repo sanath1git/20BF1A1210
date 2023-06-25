@@ -12,7 +12,7 @@ def uri_validator(x):
     except:
         return False
 
-@app.route('/')
+@app.route('/numbers')
 
 def geta_uls_response():
     links = []
